@@ -1,0 +1,17 @@
+<div>
+        <form id="album" name="album" #albumForm="ngForm" (ngSubmit)="submitForm(albumForm)">
+
+
+                <input type="text" name="albumId1" id="albumId1" [(ngModel)]="albumId1"><br>
+                <input type="text" name="id" id="id" [(ngModel)]="id">
+                <img [src]="thumbnailUrl">
+
+                <button>
+                        Submit
+                </button>
+
+
+        </form>
+
+
+</div>
